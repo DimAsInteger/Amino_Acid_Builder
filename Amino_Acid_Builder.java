@@ -8,7 +8,7 @@ import org.apache.commons.lang3.ArrayUtils;
 public class Amino_Acid_Builder {
     public static void main(String args[]) throws FileNotFoundException {
  
-        File importText = new File("C:/Users/elf/desktop/RNA_sequence.seq"); //NOTE:  INSERT $FILEPATH  C:\Users\elf\eclipse-workspace\Amino_Acid_Builder
+        File importText = new File(""); //!!NOTE:  INSERT $FILEPATH to DNA_sequence.seq!!
         Scanner importSeq = new Scanner(importText);
 
         int lineNum = 1;
